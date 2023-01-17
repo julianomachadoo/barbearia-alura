@@ -164,6 +164,7 @@ th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 2px 2px red;
 }
 
 .principal {
@@ -208,7 +209,6 @@ th {
 .beneficios {
     padding: 3em 0;
     background: #888888;
-    box-shadow: inset 0 0 30px #ff0000;
 }
 
 .conteudo-beneficios {
@@ -238,7 +238,7 @@ th {
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 30px 20px #000000, -10px -10px yellow, -20px 20px rgba(255, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px #000000;
 }
 
 .imagem-beneficios:hover {
