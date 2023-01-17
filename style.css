@@ -164,7 +164,6 @@ th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    text-shadow: 2px 2px red;
 }
 
 .principal {
@@ -248,4 +247,10 @@ th {
 .video {
     width: 550px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
 }
